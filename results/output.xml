@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-16T09:17:30.739310" rpa="false" schemaversion="5">
+<suite id="s1" name="robPlan" source="C:\Users\KisJanos\Documents\GitHub\robPlan">
+<suite id="s1-s1" name="Planet" source="C:\Users\KisJanos\Documents\GitHub\robPlan\planet.robot">
+<test id="s1-s1-t1" name="Space Item ilter" line="89">
+<kw name="Login To Space">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:31.043026" level="INFO">Opening browser 'firefox' to base url 'https://demo.testim.io'.</msg>
+<msg time="2026-03-16T09:17:31.176169" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+<arg>https://demo.testim.io</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-16T09:17:31.042650" elapsed="6.746845"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:37.790367" level="INFO">Clicking element '//*[@id="app"]/div/header/div/div[2]/ul/li/button'.</msg>
+<arg>//*[@id="app"]/div/header/div/div[2]/ul/li/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-16T09:17:37.789835" elapsed="0.154154"/>
+</kw>
+<status status="PASS" start="2026-03-16T09:17:31.041632" elapsed="6.902794"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:37.945981" level="INFO">Typing text 'John' into text field '//*[@id="login"]/div[1]/input'.</msg>
+<arg>//*[@id="login"]/div[1]/input</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-16T09:17:37.945194" elapsed="0.042925"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:37.988769" level="INFO">Typing text 'password' into text field '//*[@id="login"]/div[2]/input'.</msg>
+<arg>//*[@id="login"]/div[2]/input</arg>
+<arg>password</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-16T09:17:37.988447" elapsed="0.031275"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:38.020528" level="INFO">Clicking element '//*[@id="app"]/div/section[3]/div/div[2]/div/nav/button[2]'.</msg>
+<arg>//*[@id="app"]/div/section[3]/div/div[2]/div/nav/button[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-16T09:17:38.020151" elapsed="0.108429"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:38.130277" level="INFO">Clicking element '//*[@id="app"]/div/section[2]/div[3]/div/div/div[2]/div'.</msg>
+<arg>//*[@id="app"]/div/section[2]/div[3]/div/div/div[2]/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-16T09:17:38.129824" elapsed="0.069712"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
+<msg time="2026-03-16T09:17:38.200431" level="INFO">Clicking element '//*[@id="app"]/div/section[2]/div[3]/div/div/div[2]/ul/li[2]'.</msg>
+<arg>//*[@id="app"]/div/section[2]/div[3]/div/div/div[2]/ul/li[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-16T09:17:38.200034" elapsed="0.081008"/>
+</kw>
+<status status="PASS" start="2026-03-16T09:17:31.037094" elapsed="7.244308"/>
+</test>
+<status status="PASS" start="2026-03-16T09:17:30.784587" elapsed="7.501045"/>
+</suite>
+<status status="PASS" start="2026-03-16T09:17:30.744146" elapsed="7.544913"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="robPlan" id="s1" pass="1" fail="0" skip="0">robPlan</stat>
+<stat name="Planet" id="s1-s1" pass="1" fail="0" skip="0">robPlan.Planet</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-03-16T09:17:31.176169" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+</errors>
+</robot>

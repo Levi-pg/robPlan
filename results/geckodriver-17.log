@@ -1,0 +1,17 @@
+1773646977580	geckodriver	INFO	Listening on 127.0.0.1:62120
+1773646980647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62121" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KisJanos\\AppData\\Local\\Temp\\rust_mozprofile9LiNLb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773646980962	Marionette	INFO	Marionette enabled
+1773646981064	Marionette	INFO	Listening on port 62129
+WebDriver BiDi listening on ws://127.0.0.1:62121
+Read port: 62129
+1773646981262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+console.error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIContentSniffer.getMIMETypeFromContent]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 348"  data: no]
+1773646997470	Marionette	INFO	Stopped listening on port 62129
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.

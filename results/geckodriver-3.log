@@ -1,0 +1,45 @@
+1773645502993	geckodriver	INFO	Listening on 127.0.0.1:56617
+1773645506083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56618" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KisJanos\\AppData\\Local\\Temp\\rust_mozprofile5eE03H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773645506402	Marionette	INFO	Marionette enabled
+1773645506504	Marionette	INFO	Listening on port 61192
+WebDriver BiDi listening on ws://127.0.0.1:56618
+Read port: 61192
+1773645506702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIContentSniffer.getMIMETypeFromContent]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 348"  data: no]
+JavaScript warning: https://demo.testim.io/bundle.js, line 66: Script terminated by timeout at:
+_updateDOMProperties@https://demo.testim.io/bundle.js:66:21609
+updateComponent@https://demo.testim.io/bundle.js:66:21344
+receiveComponent@https://demo.testim.io/bundle.js:66:20930
+receiveComponent@https://demo.testim.io/bundle.js:28:1569
+_updateRenderedComponent@https://demo.testim.io/bundle.js:66:12370
+_performComponentUpdate@https://demo.testim.io/bundle.js:66:12127
+updateComponent@https://demo.testim.io/bundle.js:66:11405
+receiveComponent@https://demo.testim.io/bundle.js:66:10516
+receiveComponent@https://demo.testim.io/bundle.js:28:1569
+_updateRenderedComponent@https://demo.testim.io/bundle.js:66:12370
+_performComponentUpdate@https://demo.testim.io/bundle.js:66:12127
+updateComponent@https://demo.testim.io/bundle.js:66:11405
+receiveComponent@https://demo.testim.io/bundle.js:66:10516
+receiveComponent@https://demo.testim.io/bundle.js:28:1569
+_updateRenderedComponent@https://demo.testim.io/bundle.js:66:12370
+_performComponentUpdate@https://demo.testim.io/bundle.js:66:12127
+updateComponent@https://demo.testim.io/bundle.js:66:11405
+performUpdateIfNecessary@https://demo.testim.io/bundle.js:66:10732
+performUpdateIfNecessary@https://demo.testim.io/bundle.js:28:1751
+u@https://demo.testim.io/bundle.js:26:25603
+perform@https://demo.testim.io/bundle.js:30:19476
+perform@https://demo.testim.io/bundle.js:30:19476
+perform@https://demo.testim.io/bundle.js:26:26676
+O@https://demo.testim.io/bundle.js:26:26845
+closeAll@https://demo.testim.io/bundle.js:30:20070
+perform@https://demo.testim.io/bundle.js:30:19559
+batchedUpdates@https://demo.testim.io/bundle.js:67:1446
+i@https://demo.testim.io/bundle.js:26:25184
+dispatchEvent@https://demo.testim.io/bundle.js:67:4059
+
+1773645513400	Marionette	INFO	Stopped listening on port 61192
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

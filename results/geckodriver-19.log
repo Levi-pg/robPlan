@@ -1,0 +1,25 @@
+1773648172126	geckodriver	INFO	Listening on 127.0.0.1:49680
+1773648175211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49681" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KisJanos\\AppData\\Local\\Temp\\rust_mozprofileQnt7Ns"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773648175524	Marionette	INFO	Marionette enabled
+1773648175627	Marionette	INFO	Listening on port 60657
+WebDriver BiDi listening on ws://127.0.0.1:49681
+Read port: 60657
+1773648175814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+console.error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIContentSniffer.getMIMETypeFromContent]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 348"  data: no]
+JavaScript warning: https://demo.testim.io/bundle.js, line 30: Script terminated by timeout at:
+isInTransaction@https://demo.testim.io/bundle.js:30:19302
+closeAll@https://demo.testim.io/bundle.js:30:19910
+perform@https://demo.testim.io/bundle.js:30:19559
+batchedUpdates@https://demo.testim.io/bundle.js:67:1446
+i@https://demo.testim.io/bundle.js:26:25184
+dispatchEvent@https://demo.testim.io/bundle.js:67:4059
+
+1773648181529	Marionette	INFO	Stopped listening on port 60657
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.

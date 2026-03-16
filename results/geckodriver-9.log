@@ -1,0 +1,19 @@
+1773646372312	geckodriver	INFO	Listening on 127.0.0.1:55488
+1773646375409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KisJanos\\AppData\\Local\\Temp\\rust_mozprofiletmGoDu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773646375720	Marionette	INFO	Marionette enabled
+1773646375822	Marionette	INFO	Listening on port 55496
+WebDriver BiDi listening on ws://127.0.0.1:55489
+Read port: 55496
+1773646376008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.testim.io."
+console.error: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIContentSniffer.getMIMETypeFromContent]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 348"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://demo.testim.io/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://demo.testim.io/login" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+1773646560453	Marionette	INFO	Stopped listening on port 55496
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.
